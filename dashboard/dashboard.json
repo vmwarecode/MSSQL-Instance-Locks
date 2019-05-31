@@ -1,0 +1,763 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1-1",
+      "creationTime": 1559329462545,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "c7f999dc-d353-4550-bf9e-e764fdb4c443",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "Custom Dashboards/MSSQL Instance Locks",
+      "namePath": "Custom Dashboards",
+      "rank": 531,
+      "shared": false,
+      "states": [{
+         "key": "permDashboardTime_dashboard_c7f999dc-d353-4550-bf9e-e764fdb4c443",
+         "value": "o%3AdateRange%3Ds%253Alast24Hour%5EdateRangeText%3Ds%253A24H"
+      }],
+      "temporary": false,
+      "userId": "2a41f813-7a96-4cf0-ace6-e8c383b25024",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "a79ab77b-88ba-457e-a183-447bac6cc727",
+            "widgetIdReceiver": "281b473b-9dbc-41df-a7f1-261967ac91f2"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "a79ab77b-88ba-457e-a183-447bac6cc727",
+            "widgetIdReceiver": "5148d75a-7350-485b-ab05-145ab8a2afe2"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "a79ab77b-88ba-457e-a183-447bac6cc727",
+            "widgetIdReceiver": "e1a9101a-f93f-485c-b976-4c483d0e5e31"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "a79ab77b-88ba-457e-a183-447bac6cc727",
+            "widgetIdReceiver": "22a4b261-06a9-4f1b-b461-a4236d0166c6"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "a79ab77b-88ba-457e-a183-447bac6cc727",
+            "widgetIdReceiver": "cf97821b-ec45-4ee5-a799-d08f637ed39c"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "a79ab77b-88ba-457e-a183-447bac6cc727",
+            "widgetIdReceiver": "a305cfdd-0386-4987-99f4-98143178b815"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "a79ab77b-88ba-457e-a183-447bac6cc727",
+            "widgetIdReceiver": "a21f13a6-a0c4-4a7b-99f8-c173d05f011c"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "a79ab77b-88ba-457e-a183-447bac6cc727",
+            "widgetIdReceiver": "bed8b0a1-2c97-4111-b5dc-a67ce2e773a7"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "a79ab77b-88ba-457e-a183-447bac6cc727",
+            "widgetIdReceiver": "701cd44c-496f-442f-9d60-5dfba8a72e03"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "a79ab77b-88ba-457e-a183-447bac6cc727",
+            "widgetIdReceiver": "dc378876-3227-4a89-9f04-c6a67dd3712d"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "filterMode": "tagPicker",
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resource": [],
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": true},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:0_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:0_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "MSSQL Instances"
+            },
+            "gridsterCoords": {
+               "h": 9,
+               "w": 4,
+               "x": 1,
+               "y": 1
+            },
+            "height": 495,
+            "id": "a79ab77b-88ba-457e-a183-447bac6cc727",
+            "states": [{
+               "key": "permResGrid_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_a79ab77b-88ba-457e-a183-447bac6cc727",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A240.095703125%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ewidth%25253Dn%2525253A229.8515625%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+            }],
+            "title": "MSSQL Instances",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": "1,1",
+               "filterMode": "tagPicker",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resourceId": null,
+               "resourceName": null,
+               "selfProvider": {"selfProvider": false},
+               "tagFilter": null,
+               "title": "Advanced Object Relationship (for selected Instance)",
+               "traversalSpecId": ""
+            },
+            "gridsterCoords": {
+               "h": 9,
+               "w": 4,
+               "x": 5,
+               "y": 1
+            },
+            "height": 495,
+            "id": "281b473b-9dbc-41df-a7f1-261967ac91f2",
+            "states": [
+               {
+                  "key": "perm_viewerType_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_281b473b-9dbc-41df-a7f1-261967ac91f2",
+                  "value": "s%3ArelationshipTree"
+               },
+               {
+                  "key": "perm_ResourceRelationshipTree_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_281b473b-9dbc-41df-a7f1-261967ac91f2",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_281b473b-9dbc-41df-a7f1-261967ac91f2",
+                  "value": "b%3A1"
+               }
+            ],
+            "title": "Advanced Object Relationship (for selected Instance)",
+            "type": "ResourceRelationshipAdvanced"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "alertAction": [],
+               "alertImpact": [],
+               "criticalityLevel": [],
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "filterMode": "tagPicker",
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": [
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "state": [],
+               "status": [],
+               "tagFilter": null,
+               "title": "Alert List (for selected Instance)",
+               "type": []
+            },
+            "gridsterCoords": {
+               "h": 9,
+               "w": 4,
+               "x": 9,
+               "y": 1
+            },
+            "height": 495,
+            "id": "5148d75a-7350-485b-ab05-145ab8a2afe2",
+            "states": [
+               {
+                  "key": "permViewMode_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_5148d75a-7350-485b-ab05-145ab8a2afe2",
+                  "value": "s%3Atime"
+               },
+               {
+                  "key": "permDateFilter_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_5148d75a-7350-485b-ab05-145ab8a2afe2",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last30Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permAlertGrid_perm_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_5148d75a-7350-485b-ab05-145ab8a2afe2",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ewidth%25253Dn%2525253A301.97265625%255Eo%25253Aid%25253Ds%2525253Ah4%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah6%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AstartTimeUtc%2525255Edirection%2525253Ds%252525253ADESC%2525255Eid%2525253Ds%252525253AstartTimeUtc"
+               }
+            ],
+            "title": "Alert List (for selected Instance)",
+            "type": "AlertList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel8213-1",
+                     "isStringMetric": false,
+                     "metricKey": "locks|average_wait_time",
+                     "metricName": "Locks|Average Wait Time",
+                     "metricUnitId": "milliseconds",
+                     "orangeBound": null,
+                     "redBound": null,
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Microsoft SQL Server Instance",
+                     "unit": "ms",
+                     "yellowBound": null
+                  }],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "title": "Average Wait Time (for selected Instance)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 1,
+               "y": 10
+            },
+            "height": 324,
+            "id": "e1a9101a-f93f-485c-b976-4c483d0e5e31",
+            "states": [
+               {
+                  "key": "perm_toolbarVisible_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_e1a9101a-f93f-485c-b976-4c483d0e5e31",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_e1a9101a-f93f-485c-b976-4c483d0e5e31",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_e1a9101a-f93f-485c-b976-4c483d0e5e31",
+                  "value": "s%3A%7B%22dateRange%22%3A%22dashboardTime%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permMetricChart_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_e1a9101a-f93f-485c-b976-4c483d0e5e31",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_e1a9101a-f93f-485c-b976-4c483d0e5e31",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "Average Wait Time (for selected Instance)",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel8882-1",
+                     "isStringMetric": false,
+                     "metricKey": "locks|average_wait_time_base",
+                     "metricName": "Locks|Average Wait Time Base",
+                     "metricUnitId": "milliseconds",
+                     "orangeBound": null,
+                     "redBound": null,
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Microsoft SQL Server Instance",
+                     "unit": "ms",
+                     "yellowBound": null
+                  }],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "title": "Average Wait Time Base (for selected Instance)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 4,
+               "y": 10
+            },
+            "height": 324,
+            "id": "22a4b261-06a9-4f1b-b461-a4236d0166c6",
+            "states": [
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_22a4b261-06a9-4f1b-b461-a4236d0166c6",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_22a4b261-06a9-4f1b-b461-a4236d0166c6",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permMetricChart_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_22a4b261-06a9-4f1b-b461-a4236d0166c6",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_22a4b261-06a9-4f1b-b461-a4236d0166c6",
+                  "value": "s%3A%7B%22dateRange%22%3A%22dashboardTime%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               }
+            ],
+            "title": "Average Wait Time Base (for selected Instance)",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel9552-1",
+                     "isStringMetric": false,
+                     "metricKey": "locks|deadlock",
+                     "metricName": "Locks|Deadlocks",
+                     "metricUnitId": null,
+                     "orangeBound": null,
+                     "redBound": null,
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Microsoft SQL Server Instance",
+                     "unit": null,
+                     "yellowBound": null
+                  }],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "title": "Deadlocks (for selected Instance)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 7,
+               "y": 10
+            },
+            "height": 324,
+            "id": "cf97821b-ec45-4ee5-a799-d08f637ed39c",
+            "states": [
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_cf97821b-ec45-4ee5-a799-d08f637ed39c",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_cf97821b-ec45-4ee5-a799-d08f637ed39c",
+                  "value": "s%3A%7B%22dateRange%22%3A%22dashboardTime%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permMetricChart_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_cf97821b-ec45-4ee5-a799-d08f637ed39c",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_cf97821b-ec45-4ee5-a799-d08f637ed39c",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "Deadlocks (for selected Instance)",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel11291-1",
+                     "isStringMetric": false,
+                     "metricKey": "locks|wait_time",
+                     "metricName": "Locks|Instance Wait Time",
+                     "metricUnitId": "milliseconds",
+                     "orangeBound": null,
+                     "redBound": null,
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Microsoft SQL Server Instance",
+                     "unit": "ms",
+                     "yellowBound": null
+                  }],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "title": "Instance Wait Time (for selected Instance)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 10,
+               "y": 10
+            },
+            "height": 324,
+            "id": "a305cfdd-0386-4987-99f4-98143178b815",
+            "states": [
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_a305cfdd-0386-4987-99f4-98143178b815",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_a305cfdd-0386-4987-99f4-98143178b815",
+                  "value": "s%3A%7B%22dateRange%22%3A%22dashboardTime%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permMetricChart_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_a305cfdd-0386-4987-99f4-98143178b815",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_a305cfdd-0386-4987-99f4-98143178b815",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "Instance Wait Time (for selected Instance)",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel13894-1",
+                     "isStringMetric": false,
+                     "metricKey": "locks|lock_request",
+                     "metricName": "Locks|Lock Requests",
+                     "metricUnitId": null,
+                     "orangeBound": null,
+                     "redBound": null,
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Microsoft SQL Server Instance",
+                     "unit": null,
+                     "yellowBound": null
+                  }],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "title": "Lock Requests (for selected Instance)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 1,
+               "y": 16
+            },
+            "height": 324,
+            "id": "a21f13a6-a0c4-4a7b-99f8-c173d05f011c",
+            "states": [
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_a21f13a6-a0c4-4a7b-99f8-c173d05f011c",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permMetricChart_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_a21f13a6-a0c4-4a7b-99f8-c173d05f011c",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_a21f13a6-a0c4-4a7b-99f8-c173d05f011c",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_a21f13a6-a0c4-4a7b-99f8-c173d05f011c",
+                  "value": "s%3A%7B%22dateRange%22%3A%22dashboardTime%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               }
+            ],
+            "title": "Lock Requests (for selected Instance)",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel16005-1",
+                     "isStringMetric": false,
+                     "metricKey": "locks|lock_timeout",
+                     "metricName": "Locks|Lock Timeouts",
+                     "metricUnitId": null,
+                     "orangeBound": null,
+                     "redBound": null,
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Microsoft SQL Server Instance",
+                     "unit": null,
+                     "yellowBound": null
+                  }],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "title": "Lock Timeouts (for selected Instance)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 4,
+               "y": 16
+            },
+            "height": 324,
+            "id": "bed8b0a1-2c97-4111-b5dc-a67ce2e773a7",
+            "states": [
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_bed8b0a1-2c97-4111-b5dc-a67ce2e773a7",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_bed8b0a1-2c97-4111-b5dc-a67ce2e773a7",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_bed8b0a1-2c97-4111-b5dc-a67ce2e773a7",
+                  "value": "s%3A%7B%22dateRange%22%3A%22dashboardTime%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permMetricChart_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_bed8b0a1-2c97-4111-b5dc-a67ce2e773a7",
+                  "value": "o%3A"
+               }
+            ],
+            "title": "Lock Timeouts (for selected Instance)",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel17467-1",
+                     "isStringMetric": false,
+                     "metricKey": "locks|lock_wait_time",
+                     "metricName": "Locks|Lock Wait Time",
+                     "metricUnitId": "milliseconds",
+                     "orangeBound": null,
+                     "redBound": null,
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Microsoft SQL Server Instance",
+                     "unit": "ms",
+                     "yellowBound": null
+                  }],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "title": "Lock Wait Time (for selected Instance)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 7,
+               "y": 16
+            },
+            "height": 324,
+            "id": "701cd44c-496f-442f-9d60-5dfba8a72e03",
+            "states": [
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_701cd44c-496f-442f-9d60-5dfba8a72e03",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_701cd44c-496f-442f-9d60-5dfba8a72e03",
+                  "value": "s%3A%7B%22dateRange%22%3A%22dashboardTime%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_701cd44c-496f-442f-9d60-5dfba8a72e03",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permMetricChart_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_701cd44c-496f-442f-9d60-5dfba8a72e03",
+                  "value": "o%3A"
+               }
+            ],
+            "title": "Lock Wait Time (for selected Instance)",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel19121-1",
+                     "isStringMetric": false,
+                     "metricKey": "locks|lock_wait",
+                     "metricName": "Locks|Lock Waits",
+                     "metricUnitId": null,
+                     "orangeBound": null,
+                     "redBound": null,
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Microsoft SQL Server Instance",
+                     "unit": null,
+                     "yellowBound": null
+                  }],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "title": "Lock Waits (for selected Instance)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 10,
+               "y": 16
+            },
+            "height": 324,
+            "id": "dc378876-3227-4a89-9f04-c6a67dd3712d",
+            "states": [
+               {
+                  "key": "permMetricChart_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_dc378876-3227-4a89-9f04-c6a67dd3712d",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_dc378876-3227-4a89-9f04-c6a67dd3712d",
+                  "value": "s%3A%7B%22dateRange%22%3A%22dashboardTime%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_dc378876-3227-4a89-9f04-c6a67dd3712d",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_c7f999dc-d353-4550-bf9e-e764fdb4c443_dc378876-3227-4a89-9f04-c6a67dd3712d",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "Lock Waits (for selected Instance)",
+            "type": "MetricChart"
+         }
+      ]
+   }],
+   "entries": {"resourceKind": [{
+      "adapterKindKey": "SqlServerAdapter",
+      "internalId": "resourceKind:id:0_::_",
+      "resourceKindKey": "SqlServer"
+   }]},
+   "uuid": "7b967bfd-ce40-4f1a-ae2b-2a654e1b6d80"
+}
